@@ -11,6 +11,7 @@ If you've run the basedata.sql script on the database, log in as admin with the 
 For normal user access, use the credentials (lisa/765).
 
 **Database**
+
 MySQL or MariaDB serve as viable database options for this project. You can set up the database connection in the application.properties file by specifying the relevant values for the following properties: (it's advisable to avoid using the root username and choose another one instead)
 
 If encountering the error java.lang.IllegalArgumentException: Could not resolve placeholder 'db.driver' in value "${db.driver}", it suggests adjusting the mysql-connector-java version in the pom.xml file to match your MySQL version. Additionally, ensure to reload your Maven project after making this change.
@@ -22,6 +23,7 @@ If encountering the error java.lang.IllegalArgumentException: Could not resolve 
 After resolving this issue, it's necessary to populate the database with some initial data. This can be accomplished by executing the basedata.sql script on the database. Instructions for running this script may vary depending on the tool you're using to access the database, so it's recommended to refer to online resources for guidance.
 
 **Endpoints:**
+
 http://localhost:8080/
 
 http://localhost:8080/register
