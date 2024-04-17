@@ -23,18 +23,29 @@ After resolving this issue, it's necessary to populate the database with some in
 
 **Endpoints:**
 http://localhost:8080/
+
 http://localhost:8080/register
+
 http://localhost:8080/admin/products
+
 http://localhost:8080/admin/customers
+
 http://localhost:8080/admin/categories
+
 http://localhost:8080/admin/Dashboard
 
 **Below are the few reference links to have an idea about the concepts used:**
+
 https://maven.apache.org/guides/index.html
+
 https://docs.spring.io/spring-boot/docs/2.6.4/maven-plugin/reference/htmlsingle/
+
 https://docs.spring.io/spring-boot/docs/2.6.4/maven-plugin/reference/htmlsingle/#build-image
+
 https://docs.spring.io/spring-boot/docs/2.6.4/reference/htmlsingle/#web
+
 https://spring.io/guides/gs/rest-service
+
 https://spring.io/guides/gs/serving-web-content
 
 
