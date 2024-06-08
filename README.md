@@ -1,5 +1,12 @@
-**Introduction**
+# Ecommerce-Website
 
+# Author
+Nikhitha Konda
+
+## Introduction
+
+
+## Details
 Clone the repository.
 Open the project in your IDE: IntelliJ IDEA (recommended) or Eclipse.
 If using IntelliJ IDEA, ensure it recognizes the project as a Maven and Spring Boot project. Also, adjust the working directory for Spring Boot to find the views (web pages). Check Web Directories in IntelliJ IDEA for guidance.
@@ -10,7 +17,7 @@ Open http://localhost:8080/ in your browser.
 If you've run the basedata.sql script on the database, log in as admin with the provided credentials (admin/123); otherwise, manually create an admin user in the database.
 For normal user access, use the credentials (lisa/765).
 
-**Database**
+## Database
 
 MySQL or MariaDB serve as viable database options for this project. You can set up the database connection in the application.properties file by specifying the relevant values for the following properties: (it's advisable to avoid using the root username and choose another one instead)
 
@@ -22,7 +29,7 @@ If encountering the error java.lang.IllegalArgumentException: Could not resolve 
 
 After resolving this issue, it's necessary to populate the database with some initial data. This can be accomplished by executing the basedata.sql script on the database. Instructions for running this script may vary depending on the tool you're using to access the database, so it's recommended to refer to online resources for guidance.
 
-**Endpoints:**
+## Endpoints
 
 http://localhost:8080/
 
@@ -36,7 +43,7 @@ http://localhost:8080/admin/categories
 
 http://localhost:8080/admin/Dashboard
 
-**Below are the few reference links to have an idea about the concepts used:**
+## Some reference links to have an idea about the concepts used
 
 https://maven.apache.org/guides/index.html
 
