@@ -4,7 +4,7 @@
 Nikhitha Konda
 
 ## Introduction
-
+E-commerce website repository! This project is designed to create a seamless online shopping experience. With an easy-to-navigate interface, users can browse, search, and purchase products effortlessly. For store owners, the admin panel simplifies managing inventory, orders, and customers. Built with modern web technologies, this project is scalable and customizable, ideal for developers aiming to create or improve their own e-commerce sites. 
 
 ## Details
 Clone the repository.
